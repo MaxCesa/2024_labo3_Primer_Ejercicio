@@ -1,55 +1,100 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Dark Side of The Moon</title>
-    <link rel="icon" type="image/x-icon" href="images/Babasse-Old-School-CD-oldSchool.256.png">
+    <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
     <header>
         <nav>
             <ul>
-                <a href="./index.html">Home</a>
-                <a href="./about.html">Acerca de</a>
-                <a href="./contact.html">Contacto</a>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./about.html">Acerca de</a></li>
+                <li><a href="./contact.html">Contacto</a></li>
             </ul>
         </nav>
-        <h1>Disquería Rainbow</h1>
+        <h1 class="text-center">Disquería Rainbow</h1>
     </header>
-    <article>
-        <h2>The Dark Side Of the Moon</h2>
-        <img src="./images/Dark_Side_of_the_Moon.png" alt="The Dark Side of the Moon" width="400">
-        <section id="demostracion">
-            <h3>¡Conseguilo completo en nuestra tienda!</h3>
-            <p>Demo:</p>
-            <audio controls>
-                <source src="audio/money.mp3" type="audio/mpeg">
-                Tu navegador no soporta el elemento de audio.
-            </audio>
-        </section>
-        <h3>Track List</h3>
-        <ol>
-            <li>"Speak to Me"</li>
-            <li>"Breathe"</li>
-            <li>"On the Run"</li>
-            <li>"Time"</li>
-            <li>"The Great Gig in the Sky"</li>
-            <li>"Money"</li>
-            <li>"Us and Them"</li>
-            <li>"Any Colour You Like"</li>
-            <li>"Brain Damage"</li>
-            <li>"Eclipse"</li>
-        </ol>
-        <section id="informacion">
-            <h3>Informacion del album</h3>
-            <p>El álbum está construido a partir de las ideas que Pink Floyd había explorado en sus conciertos y anteriores grabaciones, pero carece de las largas piezas instrumentales que caracterizaban a los trabajos posteriores a la marcha en 1968 de su miembro fundador, principal compositor y letrista, Syd Barrett. La temática del álbum incluye el conflicto, la avaricia, el envejecimiento, el significado de la vida, el miedo a la muerte y la enfermedad mental, este último inspirado, en parte, por el deterioro mental de Barrett.</p>
-        </section>
-    </article>
+
+    <main>
+        <article class="center">
+            <h2 class="text-center">The Dark Side Of the Moon</h2>
+            <img class="center" src="./images/Dark_Side_of_the_Moon.png" alt="The Dark Side of the Moon" width="400">
+            <h3 class="text-center">Track List</h3>
+    
+            <table border="1" class="center">
+                <thead>
+                    <tr>
+                        <th>Numero</th>
+                        <th>Duracion</th>
+                        <th>Nombre</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>04:47</td>
+                        <td>Speak to Me</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>02:48</td>
+                        <td>Breathe</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>03:53</td>
+                        <td>On the Run</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>07:06</td>
+                        <td>Time</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>04:44</td>
+                        <td>The Great Gig in the Sky</td>
+                    </tr>
+                    <tr>
+                        <td>6</td>
+                        <td>06:22</td>
+                        <td>Money</td>
+                    </tr>
+                    <tr>
+                        <td>7</td>
+                        <td>07:51</td>
+                        <td>Us and Them</td>
+                    </tr>
+                    <tr>
+                        <td>8</td>
+                        <td>03:25</td>
+                        <td>Any Colour You Like</td>
+                    </tr>
+                    <tr>
+                        <td>9</td>
+                        <td>03:50</td>
+                        <td>Brain Damage</td>
+                    </tr>
+                    <tr>
+                        <td>10</td>
+                        <td>02:03</td>
+                        <td>Eclipse</td>
+                    </tr>
+                </tbody>
+            </table>
+        </article>
+    </main>
+    
     <footer>
         <nav>
             <ul><li>"Derechos Reservados (2024)"</li></ul>
         </nav>
     </footer>
 </body>
+
 </html>

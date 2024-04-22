@@ -1,59 +1,109 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>A Night At the Opera</title>
-    <link rel="icon" type="image/x-icon" href="images/Babasse-Old-School-CD-oldSchool.256.png">
+    <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
     <header>
         <nav>
             <ul>
-                <a href="./index.html">Home</a>
-                <a href="./about.html">Acerca de</a>
-                <a href="./contact.html">Contacto</a>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./about.html">Acerca de</a></li>
+                <li><a href="./contact.html">Contacto</a></li>
             </ul>
         </nav>
-        <h1>Disquería Rainbow</h1>
+        <h1 class="text-center">DISQUERÍA RAINBOW</h1>
     </header>
-    <article>
-        <h2>A Night At the Opera</h2>
-        <img src="./images/Queen_A_Night_At_The_Opera.png" alt="A Night At the Opera" width="400">
-        
-        <section id="demostracion">
-            <h3>¡Conseguilo completo en nuestra tienda!</h3>
-            <p>Demo:</p>
-            <audio controls>
-                <source src="audio/Death on two legs.mp3" type="audio/mpeg">
-                Tu navegador no soporta el elemento de audio.
-            </audio>
-        </section>
-        
-        <h3>Track List</h3>
-        <ol>
-            <li>"Death on Two Legs (Dedicated to...)" </li>
-            <li>"Lazing on a Sunday Afternoon"</li>
-            <li>"I'm in Love with My Car"</li>
-            <li>"You're My Best Friend"</li>
-            <li>"'39"</li>
-            <li>"Sweet Lady"</li>
-            <li>"Seaside Rendezvous"</li>
-            <li>"The Prophet's Song"</li>
-            <li>"Love of My Life"</li>
-            <li>"Good Company"</li>
-            <li>"Bohemian Rhapsody"</li>
-            <li>"God Save the Queen"</li>
-        </ol>
-        <section id="informacion">
-            <h3>Informacion del album</h3>
-            <p>El álbum toma el nombre de la película Una noche en la ópera de los hermanos Marx, que la banda vio una noche en el complejo de estudios durante la grabación. El álbum es famoso por tener los éxitos "Bohemian Rhapsody" y "You're My Best Friend", además de otras canciones conocidas del grupo como "Love of My Life", "Death on Two Legs (Dedicated to...)", "The Prophet's Song", "I'm in Love with My Car" y la versión de May y Taylor del himno británico.</p>
-        </section>
-    </article>
+
+    <main>
+        <article class="center">
+            <h2 class="text-center">A Night At the Opera</h2>
+            <img class="center" src="./images/Queen_A_Night_At_The_Opera.png" alt="A Night At the Opera" width="400">
+            <h3 class="text-center">Track List</h3>
+            <table border="1" class="center">
+                <thead>
+                    <tr>
+                        <th>Numero</th>
+                        <th>Duracion</th>
+                        <th>Nombre</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>05:54</td>
+                        <td>Death on Two Legs (Dedicated to...)</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>06:07</td>
+                        <td>Lazing on a Sunday Afternoon</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>05:57</td>
+                        <td>I'm in Love with My Car</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>03:02</td>
+                        <td>You're My Best Friend</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>05:09</td>
+                        <td>'39</td>
+                    </tr>
+                    <tr>
+                        <td>6</td>
+                        <td>05:54</td>
+                        <td>Sweet Lady</td>
+                    </tr>
+                    <tr>
+                        <td>7</td>
+                        <td>05:50</td>
+                        <td>Seaside Rendezvous</td>
+                    </tr>
+                    <tr>
+                        <td>8</td>
+                        <td>06:08</td>
+                        <td>The Prophet's Song</td>
+                    </tr>
+                    <tr>
+                        <td>9</td>
+                        <td>02:44</td>
+                        <td>Love of My Life</td>
+                    </tr>
+                    <tr>
+                        <td>10</td>
+                        <td>05:54</td>
+                        <td>Good Company</td>
+                    </tr>
+                    <tr>
+                        <td>11</td>
+                        <td>01:07</td>
+                        <td>Bohemian Rhapsody</td>
+                    </tr>
+                    <tr>
+                        <td>12</td>
+                        <td>01:06</td>
+                        <td>God Save the Queen</td>
+                    </tr>
+                </tbody>
+            </table>
+        </article>
+    </main>
+
     <footer>
         <nav>
             <ul><li>"Derechos Reservados (2024)"</li></ul>
         </nav>
     </footer>
 </body>
+
 </html>
