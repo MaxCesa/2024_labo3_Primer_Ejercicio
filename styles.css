@@ -38,7 +38,6 @@ nav li a:hover {
 
 h1, h2, h3 {
     font-family: Garamond, serif;
-    text-transform: uppercase;
 }
 h1 {
     font-size: 3rem;
@@ -55,6 +54,11 @@ table {
 }
 table td:last-child {
     width: 100%;
+}
+
+form {
+    padding: 1rem;
+    border: .1rem solid black;
 }
 
 .text-center {
@@ -96,4 +100,10 @@ h4{
     text-align: justify;
     margin: 0px 200px 0px 200px;
     font-size: medium;
+}
+
+#submit-button {
+    background-color: #606C38;
+    border-radius: .4rem;
+    height: 2rem;
 }
