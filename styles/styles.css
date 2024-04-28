@@ -78,6 +78,7 @@ footer p {
 }
 
 .custom-form {
+    display: block;
     padding: 1rem;
     border: .1rem solid black;
 }
@@ -85,9 +86,10 @@ footer p {
 .text-center {
     text-align: center;
 }
-
-.center {
+.img_center{
     display: block;
+}
+.center {
     margin: 0 auto;
     width: 50%;
 }
@@ -102,6 +104,7 @@ footer p {
 }
 
 .cover {
+    display: block;
     box-shadow: 0.188rem 0.188rem 0.25rem -0.125rem;
     border-radius: .5rem;
 }
