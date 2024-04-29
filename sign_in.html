@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Disquería Rainbow</title>
+    <link rel="stylesheet" href="./styles/styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./sign_in.html">Registrarse</a></li>
+                <li><a href="./about.html">Acerca de</a></li>
+                <li><a href="./contact.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="center">
+        <h1 class="text-center">DISQUERÍA RAINBOW</h1>
+
+        <h2 class="text-center">Registrate para ser parte de nuestra comunidad</h2>
+        <form action="show_data.html" class="custom-form center">
+            <label for="nombre" class="center">Nombre:</label> <input type="text" name="nombre" placeholder="Nombre..." class="center"> <br>
+            <label for="apellido" class="center">Apellido: </label> <input type="text" name="apellido" placeholder="Apellido..." class="center"> <br>
+            <label for="direccion" class="center">Dirección: </label> <input type="text" name="direccion" placeholder="Direccion..." class="center"> <br>
+            <label for="ciudad" class="center">Ciudad: </label> <input type="text" name="ciudad" placeholder="Ciudad..." class="center"> <br>
+            <label for="codigo_postal" class="center">Codigo postal:</label> <input type="text" name="codigo_postal" placeholder="Codigo postal..." class="center"> <br>
+            <label for="fecha_de_nacimiento" class="center">Fecha de nacimiento:</label> <input type="text" name="fecha_de_nacimiento" placeholder="Fecha de nacimiento..." class="center"> <br>
+            <div class="center">
+                <label for="genero">Genero:</label>
+                <input type="radio" name="genero" value="Hombre"> Hombre
+                <input type="radio" name="genero" value="Mujer"> Mujer
+                <input type="radio" name="genero" value="Otro"> Otro
+            </div> <br>
+            <label for="email" class="center">Email:</label> <input type="text" name="email" placeholder="Email..." class="center"> <br>
+            <label for="contraseña" class="center">Contraseña:</label> <input type="password" name="contrasenia" placeholder="Contraseña..." class="center"> <br>
+            <hr>
+            <button type="submit" value="Enviar" id="submit-button" class="center">Enviar!</button>
+        </form>
+
+    </main>
+
+    <footer>
+        <p>Derechos Reservados &copy; Rainbow Disquería - 2024</p>       
+    </footer>
+</body>
+</html>

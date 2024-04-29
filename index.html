@@ -3,32 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Catalogo de discos</title>
+    <title>Disquería Rainbow</title>
+    <link rel="stylesheet" href="./styles/styles.css">
 </head>
 <body>
     <header>
         <nav>
             <ul>
-                <a href="./index.html">Home</a>
-                <a href="./about.html">Acerca de</a>
-                <a href="./contact.html">Contacto</a>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./sign_in.html">Registrarse</a></li>
+                <li><a href="./about.html">Acerca de</a></li>
+                <li><a href="./contact.html">Contacto</a></li>
             </ul>
         </nav>
-        <h1>Disquería Rainbow</h1>
     </header>
-    <menu>
-        <h2>Discos Imprescindibles</h2>
-        <ul>
-            <li><a href="./a_night_at_the_opera.html">A Night At The Opera</a></li>
-            <li><a href="./back_in_black.html">Back In Black</a></li>
-            <li><a href="./the_dark_side_of_the_moon.html">The Dark Side Of The Moon</a></li>
-            <li><a href="./ZeppelinIV.html">Led Zeppelin IV</a></li>
-        </ul>
-    </menu>
+
+    <main>
+        <h1 class="text-center">DISQUERÍA RAINBOW</h1>
+
+        <img src="images/Vinilos.jpg" alt="Vinilos" width="800" class="center cover">
+
+        <article class="center">
+            <h2>¡Nuestros 5 discos más vendidos! ¿Te falta alguno?</h2>   
+            <ol>
+                <li><a href="./albums/a_night_at_the_opera.html" class="avaiable">A Night At The Opera - Queen</a></li>
+                <li><a href="./albums/abbey_road.html" class="avaiable">Abbey Road - The Beatles</a></li>
+                <li><a href="./albums/back_in_black.html" class="avaiable">Back In Black - AC/DC</a></li>
+                <li><a href="./albums/the_dark_side_of_the_moon.html" class="avaiable">The Dark Side Of The Moon - Pink Floyd</a></li>
+                <li><a href="./albums/ZeppelinIV.html" class="avaiable">Led Zeppelin IV - Led Zeppelin</a></li>
+            </ol>
+        </article>
+
+        <article class="center">
+            <h2>La historia habla por sí sola: Los 10 discos más vendidos de la historia</h2>   
+            <ol>
+                <li>Thriller - Michael Jackson</li>
+                <li><a href="./albums/back_in_black.html" class="avaiable">Back in Black - AC/DC</a></li>
+                <li><a href="./albums/the_dark_side_of_the_moon.html"  class="avaiable">The Dark Side of The Moon - Pink Floyd</a></li>
+                <li>The Bodyguard - Whitney Houston</li>
+                <li>Their Greatest Hits (1971-1975) - The Eagles</li>
+                <li>Saturday Night Fever - Bee Gees</li>
+                <li>Rumours - Fleetwood Mac</li>
+                <li>El Fantasma de la Ópera - Andrew Lloyd Webber</li>
+                <li>Come on Over - Shania Twain</li>
+                <li><a href="./albums/ZeppelinIV.html"  class="avaiable">Led Zeppelin IV - Led Zeppelin</a></li>
+            </ol>
+        </article>
+    </main>
+
     <footer>
-        <nav>
-            <ul><li>"Derechos Reservados (2024)"</li></ul>
-        </nav>
+        <p>Derechos Reservados &copy; Rainbow Disquería - 2024</p>       
     </footer>
 </body>
 </html>
